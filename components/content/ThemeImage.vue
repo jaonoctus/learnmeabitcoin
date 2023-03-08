@@ -5,12 +5,10 @@ const colorMode = useColorMode()
 const src = ref('')
 
 onMounted(() => {
-  console.log('init')
   updateImageSrc()
 })
 
 watch(colorMode, () => {
-  console.log('changed')
   updateImageSrc()
 })
 
