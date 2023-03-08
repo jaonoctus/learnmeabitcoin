@@ -30,3 +30,10 @@ function updateImageSrc () {
     <img :src="src" :alt="alt"/>
   </p>
 </template>
+
+<style scoped>
+p {
+  display: flex;
+  justify-content: center;
+}
+</style>
